@@ -1,0 +1,37 @@
+[
+  {
+    "description": "Mảng đã được sắp xếp sẵn",
+    "input": [1, 2, 3, 4, 5],
+    "expected": [1, 2, 3, 4, 5]
+  },
+  {
+    "description": "Mảng hoàn toàn hỗn độn",
+    "input": [5, 3, 1, 4, 2],
+    "expected": [1, 2, 3, 4, 5]
+  },
+  {
+    "description": "Mảng có các phần tử bằng nhau",
+    "input": [2, 2, 2, 2],
+    "expected": [2, 2, 2, 2]
+  },
+  {
+    "description": "Mảng có phần tử âm và dương",
+    "input": [-1, 3, 0, -2, 2],
+    "expected": [-2, -1, 0, 2, 3]
+  },
+  {
+    "description": "Mảng rỗng",
+    "input": [],
+    "expected": []
+  },
+  {
+    "description": "Mảng chỉ có một phần tử",
+    "input": [42],
+    "expected": [42]
+  },
+  {
+    "description": "Mảng có phần tử trùng lặp và hỗn độn",
+    "input": [4, 2, 4, 1, 3, 2],
+    "expected": [1, 2, 2, 3, 4, 4]
+  }
+]
