@@ -29,4 +29,3 @@ for i in range(1, n):
     lst[j + 1] = key
 
 print("List sau khi sắp xếp giảm dần:", lst)
-

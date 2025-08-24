@@ -11,8 +11,6 @@ print("List sau khi sắp xếp tăng dần:", lst)
 
 
 
-
-
 n = int(input("Nhập số phần tử của list: "))
 lst = list(map(int, input("Nhập các phần tử, cách nhau bởi dấu cách: ").split()))
 
